@@ -1,0 +1,96 @@
+/* styles.css */
+
+/* Basic Styling for the whole page */
+body {
+    font-family: script;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    background-image: url("background.jpg"); /* Path to background image */
+    background-size: cover; /* Ensure the background covers the entire page */
+    background-repeat: no-repeat;
+    background-position: center; /* Center the background image */
+    background-attachment: fixed;
+    color: white; 
+}
+
+/* Header Styling */
+header {
+    background-color: #484646; 
+    padding: 5px;
+    text-align: center; 
+}
+
+.business-name {
+    background-image: url("mybusiimage.jpg"); 
+    background-size: cover; 
+    background-position: center; 
+    color: white; 
+    padding: 30px; 
+    text-align: center; 
+    text-shadow: 2px 2px 4px rgb(83, 82, 82); 
+}
+
+/* Navigation Menu */
+nav {
+    margin-top: 10px;
+    margin-right: 20px;
+    margin-bottom: 10px;
+    margin-left: 20px;
+    text-align: center; 
+}
+
+nav a {
+    display: inline-block;
+    margin: 5px 10px;
+    padding: 5px 3px;
+    text-decoration: none;
+    color: #efebeb;
+    border: 2px solid #ccc;
+    border-radius: 6px;
+}
+
+nav a:hover {
+    background-color: #ddd;
+    margin-top: 10px;
+    margin-right: 20px;
+    margin-bottom: 10px;
+    margin-left: 20px
+}
+
+/* Page Content Styling */
+.page-content {
+    background-image: url("background.jpg"); /* Replace with your image path */
+    background-size: cover; 
+    background-position: center; 
+    min-height: 100vh; /* Ensure the background covers the full viewport height */
+}
+
+/* Hero Section Styling */
+.hero {
+    text-align: center; 
+    padding: 10px 5px;
+}
+
+/* Buttons */
+.btn {
+    display: inline-block;
+    padding: 15px 30px;
+    background-color: #007bff; 
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.btn:hover {
+    background-color: #0056b3;
+}
+
+/* Footer Styling */
+footer {
+    background-color: #333333;
+    color: white;
+    padding: 10px;
+    text-align: center; 
+    
+}
